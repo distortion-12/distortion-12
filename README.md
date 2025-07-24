@@ -1,4 +1,4 @@
-![Banner](./welcome.mp4)
+![Banner](./welcome.png)
 # Ramakant Singh Chouhan  
 `distortion-12` | he/him  
 
@@ -53,4 +53,4 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramchouhan045@gmail.com)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/psy_ram_12)
 
-![Banner](./thanks.mp4)
+![Banner](./thanks.png)
