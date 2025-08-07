@@ -33,7 +33,7 @@
    `Java` `React` `WebSocket`  
    *Live tournament platform for PUBG/BGM.*  
 
-2. **[CASIE Voice Assistant](https://github.com/distortion-12/CASIE-Virtual-Assistant)**  
+2. **[LYRA Voice Assistant](https://github.com/distortion-12/Lyra-Virtual-Assistant)**  
    `Python` `NLP`  
    *AI assistant with weather/search automation.*  
 
