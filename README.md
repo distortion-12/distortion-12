@@ -29,18 +29,15 @@
 ---
 
 ## 🌟 **Top Repositories** 
-1. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)**
-   `JavaScript` `React` `node.js`
-   *Graphical and Tree view representation of Github Repo.*
-2. **[eSports Platform](https://github.com/distortion-12/eSports-Arena)**  
+1. **[eSports Platform](https://github.com/distortion-12/eSports-Arena)**  
    `JavaScript` `React` `WebSocket`  
    *Live tournament platform for PUBG/BGM.*  
 
-3. **[LYRA Voice Assistant](https://github.com/distortion-12/Lyra-Virtual-Assistant)**  
+2. **[LYRA Voice Assistant](https://github.com/distortion-12/Lyra-Virtual-Assistant)**  
    `Python` `NLP`  
    *AI assistant with weather/search automation.*  
 
-4. **[File Encryptor](https://github.com/distortion-12/File-Encryptor)**  
+3. **[File Encryptor](https://github.com/distortion-12/File-Encryptor)**  
    `Java` `AES Cryptography`  
    *GUI tool for secure file encryption.*  
 
