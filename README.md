@@ -29,7 +29,7 @@
 ---
 
 ## 🌟 **Top Repositories** 
-1. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)
+1. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)**
    `JavaScript` `React` `node.js`
    *Graphical and Tree view representation of Github Repo.*
 2. **[eSports Platform](https://github.com/distortion-12/eSports-Arena)**  
