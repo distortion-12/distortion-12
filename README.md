@@ -43,7 +43,7 @@
    
 4. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)**  
    `JavaScript` `React` `Chart.js`
-   *A web tool to visualize GitHub repository statistics.*
+   * A web tool to visualize GitHub repository statistics.*
 ---
 
 ## 📅 **Contribution Graph**  
