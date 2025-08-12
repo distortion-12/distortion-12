@@ -40,7 +40,8 @@
 3. **[File Encryptor](https://github.com/distortion-12/File-Encryptor)**  
    `Java` `AES Cryptography`  
    *GUI tool for secure file encryption.*
-3. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)**  
+   
+4. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)**  
    `JavaScript` `React`  `Chart.js`
    *A web tool to visualize GitHub repository statistics.*
 ---
