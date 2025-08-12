@@ -11,7 +11,7 @@
 - 🔭 **Working on:** [eSports Live Platform](https://github.com/distortion-12/eSports-Arena) (MERN Stack)  
 - 🌱 **Learning:** Advanced React & Spring Boot  
 - 🤝 **Collaborate:** Open to MERN/Java projects!  
-- ⚡ **Fun fact:** Built a voice-controlled AI named **CASIE**!  
+- ⚡ **Fun fact:** Built a voice-controlled AI named **Lyra**!  
 
 ---
 
