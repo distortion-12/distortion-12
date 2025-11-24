@@ -8,8 +8,8 @@
 ---
 
 ## 🚀 **About Me**  
-- 🔭 **Working on:** [eSports Live Platform](https://github.com/distortion-12/eSports-Arena) (MERN Stack)  
-- 🌱 **Learning:** Advanced React & Spring Boot  
+- 🔭 **Working on:** [EaseBooking System](https://github.com/distortion-12/EaseBookings)  
+- 🌱 **Learning:** Data Structure & Algorithm with Java  
 - 🤝 **Collaborate:** Open to MERN/Java projects!  
 - ⚡ **Fun fact:** Built a voice-controlled AI named **Lyra**!  
 
@@ -28,7 +28,7 @@
 
 ---
 
-## 🌟 **Top Repositories** 
+## 🌟 **Projects** 
 1. **[eSports Platform](https://github.com/distortion-12/eSports-Arena)**  
    `JavaScript` `React` `WebSocket`  
    *Live tournament platform for PUBG/BGM.*  
@@ -37,13 +37,17 @@
    `Python` `NLP`  
    *AI assistant with weather/search automation.*  
 
-3. **[File Encryptor](https://github.com/distortion-12/File-Encryptor)**  
+3. **[File Encryptor](https://github.com/distortion-12/FileEncryptor)**  
    `Java` `AES Cryptography`  
    *GUI tool for secure file encryption.*
-   
-4. **[Github Repo Visualizer](https://github.com/distortion-12/Git-Repo-Visualizer)**  
-   `JavaScript` `React` `Chart.js`
-   *A web tool to visualize GitHub repository statistics.*
+
+4. **[EaseBookings](https://github.com/distortion-12/EaseBookings)**  
+   `JavaScript`  
+   *Booking management system.*
+
+5. **[Git Repo Visualizer 2.0](https://github.com/distortion-12/Git-Repo-Visualizer-2.0)**  
+   `JavaScript`  
+   *Enhanced version of the repository visualizer.*
 ---
 
 ## 📅 **Contribution Graph**  
