@@ -78,12 +78,6 @@ A modern visualization tool for GitHub repository insights.
 
 ---
 
-## 📊 **GitHub Stats**
-![Stats](https://github-readme-stats.vercel.app/api?username=distortion-12&show_icons=true&theme=tokyonight&hide_border=true)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=distortion-12&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
 ## 🔥 **Streaks**
 ![Streaks](https://streak-stats.demolab.com/?user=distortion-12&theme=tokyonight&hide_border=true)
 
