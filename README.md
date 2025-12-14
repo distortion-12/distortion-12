@@ -71,10 +71,6 @@ A management system for handling booking operations.
 `JavaScript`  
 A modern visualization tool for GitHub repository insights.
 
----
-
-## 🏆 **GitHub Trophies**
-![Trophies](https://github-profile-trophy.vercel.app/?username=distortion-12&theme=gitdimmed&margin-w=10)
 
 ---
 
