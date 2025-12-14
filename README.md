@@ -79,7 +79,7 @@ A modern visualization tool for GitHub repository insights.
 ---
 
 ## 🔥 **Streaks**
-![Streaks](https://streak-stats.demolab.com/?user=distortion-12&theme=tokyonight&hide_border=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=distortion-12)](https://git.io/streak-stats)
 
 ---
 
