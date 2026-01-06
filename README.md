@@ -72,10 +72,6 @@ A management system for handling booking operations.
 A modern visualization tool for GitHub repository insights.
 
 
----
-
-## 🔥 **Streaks**
-[![GitHub Streak](https://streak-stats.demolab.com?user=distortion-12)](https://git.io/streak-stats)
 
 ---
 
