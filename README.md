@@ -1,7 +1,7 @@
 ![Banner](./welcome.png)
 
 # **Ramakant Singh Chouhan**  
-`distortion-12` | he/him  
+`distortion-12` | he/him | 📍 Indore, India
 
 [![](https://img.shields.io/github/followers/distortion-12?label=Follow&style=social)](https://github.com/distortion-12)
 ![Visitors](https://komarev.com/ghpvc/?username=distortion-12&color=blueviolet)
@@ -9,14 +9,35 @@
 ---
 
 ## 🚀 **About Me**
-- 🔭 **Working on:** [EaseBooking System](https://github.com/distortion-12/EaseBookings)  
+Full Stack Developer working on the EaseBooking System and diving deep into Data Structures & Algorithms in Java. Passionate about building scalable applications with modern technologies and always eager to collaborate on MERN or Java-based projects.
+
+**Fun Fact:** I built a voice-controlled AI named **Lyra**!
+
+- 🔭 **Currently Working on:** [Researcher Hut](https://github.com/distortion-12/researcher-hut)  
 - 🌱 **Learning:** Data Structures & Algorithms in Java  
-- 🤝 **Looking to Collaborate On:** MERN / Java-based projects  
-- ⚡ **Fun Fact:** I built a voice-controlled AI named **Lyra**!
+- 🤝 **Open to Collaborating On:** MERN Stack & Java-based projects
 
 ---
 
-## 🛠️ **Tech Stack**
+## � **Professional Experience**
+
+### **MERN Stack Intern** @ Wormos Pvt. Ltd
+📍 Greater Noida | May 2025 - June 2025
+
+**Key Achievements:**
+- Outlined feature scope, technical feasibility, and user impact, aiding sprint planning
+- Enabled component-based design, simplifying entity interactions and future scalability
+- Achieved **40% performance boost** in inventory operations and improved maintainability
+- Fixed memory mismanagement in real-time, ensuring uninterrupted functionality
+
+---
+
+## 🎓 **Education**
+
+**Bachelor of Technology in Information Technology**  
+Medi-Caps University, Indore | 2022 - 2026
+
+---
 
 ### **Languages**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
@@ -38,38 +59,52 @@
 ---
 
 ## 🌟 **Projects**
-### **1. eSports Platform**
-**Repo:** https://github.com/distortion-12/eSports-Arena  
-`JavaScript` `React` `WebSocket`  
-A real-time tournament platform for PUBG/BGMI.
+
+### **Currently Working On 🚀**
+
+#### **Researcher Hut**
+**Status:** 🔄 Currently Active  
+**Description:** Research collaboration platform.  
+**Technologies:** MERN Stack  
+**Repo:** https://github.com/distortion-12/researcher-hut
 
 ---
 
-### **2. LYRA Voice Assistant**
-**Repo:** https://github.com/distortion-12/Lyra-Virtual-Assistant  
-`Python` `NLP`  
-Voice-based personal assistant with weather + search functionality.
+### ** Projects 📚**
+
+#### **1. EaseBookings**
+**Description:** A management system for handling booking operations.  
+**Technologies:** JavaScript  
+**Repo:** https://github.com/distortion-12/EaseBookings
 
 ---
 
-### **3. File Encryptor**
-**Repo:** https://github.com/distortion-12/FileEncryptor  
-`Java` `AES Cryptography`  
-A GUI tool for secure AES-based file encryption.
+#### **2. Git Repo Visualizer 2.0**
+**Description:** A modern visualization tool for GitHub repository insights.  
+**Technologies:** JavaScript  
+**Live Demo:** https://git-repo-visualizer.netlify.app/  
+**Repo:** https://github.com/distortion-12/Git-Repo-Visualizer-2.0
 
 ---
 
-### **4. EaseBookings**
-**Repo:** https://github.com/distortion-12/EaseBookings  
-`JavaScript`  
-A management system for handling booking operations.
+#### **3. eSports Platform**
+**Description:** A real-time tournament platform for PUBG/BGMI.  
+**Technologies:** JavaScript | React | WebSocket  
+**Repo:** https://github.com/distortion-12/eSports-Arena
 
 ---
 
-### **5. Git Repo Visualizer 2.0**
-**Repo:** https://github.com/distortion-12/Git-Repo-Visualizer-2.0  
-`JavaScript`  
-A modern visualization tool for GitHub repository insights.
+#### **4. LYRA Voice Assistant**
+**Description:** Voice-based personal assistant with weather + search functionality.  
+**Technologies:** Python | NLP  
+**Repo:** https://github.com/distortion-12/Lyra-Virtual-Assistant
+
+---
+
+#### **5. File Encryptor**
+**Description:** A GUI tool for secure AES-based file encryption.  
+**Technologies:** Java | AES Cryptography  
+**Repo:** https://github.com/distortion-12/FileEncryptor
 
 
 
