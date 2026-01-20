@@ -13,7 +13,7 @@ Full Stack Developer working on the EaseBooking System and diving deep into Data
 
 **Fun Fact:** I built a voice-controlled AI named **Lyra**!
 
-- 🔭 **Currently Working on:** [Researcher Hut](https://github.com/distortion-12/researcher-hut)  
+- 🔭 **Currently Working on:** [Researcher Hut](https://researcher-hut.vercel.app/)  
 - 🌱 **Learning:** Data Structures & Algorithms in Java  
 - 🤝 **Open to Collaborating On:** MERN Stack & Java-based projects
 
@@ -66,7 +66,7 @@ Medi-Caps University, Indore | 2022 - 2026
 **Status:** 🔄 Currently Active  
 **Description:** Research collaboration platform.  
 **Technologies:** MERN Stack  
-**Repo:** https://github.com/distortion-12/researcher-hut
+**Live:** https://researcher-hut.vercel.app/
 
 ---
 
