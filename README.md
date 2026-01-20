@@ -65,7 +65,7 @@ Medi-Caps University, Indore | 2022 - 2026
 #### **Researcher Hut**
 **Status:** 🔄 Currently Active  
 **Description:** Research collaboration platform.  
-**Technologies:** MERN Stack  
+**Technologies:** React, Next.js, supabase JS, Express.js, Supabase(PostgreSQL)  
 **Live:** https://researcher-hut.vercel.app/
 
 ---
