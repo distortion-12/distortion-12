@@ -1,0 +1,8 @@
+{
+    "wake_word": "jarvis",
+    "voice_rate": 150,
+    "voice_volume": 0.9,
+    "weather_api_key": "",
+    "user_name": "Sir",
+    "theme": "default"
+}

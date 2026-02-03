@@ -101,7 +101,15 @@ Medi-Caps University, Indore | 2022 - 2026
 
 ---
 
-#### **5. File Encryptor**
+#### **5. JARVIS - Personal AI Assistant** ✨ **NEW**
+**Description:** Advanced voice-controlled assistant that can fully control your device and perform various tasks on command. Features include application management, system control, web search, file operations, and more.  
+**Technologies:** Python | Speech Recognition | Text-to-Speech | System Automation  
+**Status:** 🚀 Available in this repository  
+**See:** [JARVIS_README.md](./JARVIS_README.md) for full documentation
+
+---
+
+#### **6. File Encryptor**
 **Description:** A GUI tool for secure AES-based file encryption.  
 **Technologies:** Java | AES Cryptography  
 **Repo:** https://github.com/distortion-12/FileEncryptor
