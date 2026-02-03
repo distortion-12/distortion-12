@@ -53,11 +53,20 @@ pip install -r requirements.txt
 sudo apt-get install portaudio19-dev python3-pyaudio
 ```
 
+**Note for Linux users (Volume Control)**: Volume control requires alsa-utils:
+```bash
+sudo apt-get install alsa-utils
+```
+
 **Note for macOS users**:
 ```bash
 brew install portaudio
 pip install pyaudio
 ```
+
+**Note for Windows users (Volume Control)**: Volume control requires nircmd.exe:
+- Download from: https://www.nirsoft.net/utils/nircmd.html
+- Extract nircmd.exe to the JARVIS directory or add to PATH
 
 ### Step 3: Configuration (Optional)
 Edit `jarvis_config.json` to customize:

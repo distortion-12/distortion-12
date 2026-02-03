@@ -102,8 +102,9 @@ class Jarvis:
             try:
                 self.engine.say(text)
                 self.engine.runAndWait()
-            except:
-                pass  # If TTS fails, text output is already printed
+            except Exception as e:
+                # If TTS fails, text output is already printed
+                pass
     
     def listen(self):
         """Listen for voice commands"""
@@ -159,42 +160,88 @@ class Jarvis:
             self.speak(f"I don't know how to open {app_name}")
             return False
     
-    def shutdown_system(self):
-        """Shutdown the computer"""
+    def shutdown_system(self, confirmed=False):
+        """Shutdown the computer - requires confirmation"""
+        if not confirmed:
+            self.speak("This action requires explicit confirmation. Not executing for safety.")
+            return False
+            
         self.speak("Shutting down the system")
         if platform.system() == 'Windows':
             os.system('shutdown /s /t 1')
         else:
             os.system('shutdown now')
+        return True
     
-    def restart_system(self):
-        """Restart the computer"""
+    def restart_system(self, confirmed=False):
+        """Restart the computer - requires confirmation"""
+        if not confirmed:
+            self.speak("This action requires explicit confirmation. Not executing for safety.")
+            return False
+            
         self.speak("Restarting the system")
         if platform.system() == 'Windows':
             os.system('shutdown /r /t 1')
         else:
             os.system('reboot')
+        return True
     
-    def sleep_system(self):
-        """Put the computer to sleep"""
+    def sleep_system(self, confirmed=False):
+        """Put the computer to sleep - requires confirmation"""
+        if not confirmed:
+            self.speak("This action requires explicit confirmation. Not executing for safety.")
+            return False
+            
         self.speak("Putting the system to sleep")
         if platform.system() == 'Windows':
             os.system('rundll32.exe powrprof.dll,SetSuspendState 0,1,0')
         else:
             os.system('systemctl suspend')
+        return True
     
     def adjust_volume(self, action):
         """Adjust system volume"""
         if platform.system() == 'Windows':
-            if action == 'up':
-                subprocess.run(['nircmd.exe', 'changesysvolume', '2000'])
-            elif action == 'down':
-                subprocess.run(['nircmd.exe', 'changesysvolume', '-2000'])
-            elif action == 'mute':
-                subprocess.run(['nircmd.exe', 'mutesysvolume', '1'])
-            self.speak(f"Volume {action}")
+            # Note: Requires nircmd.exe on Windows
+            # Download from: https://www.nirsoft.net/utils/nircmd.html
+            try:
+                if action == 'up':
+                    subprocess.run(['nircmd.exe', 'changesysvolume', '2000'], check=True)
+                elif action == 'down':
+                    subprocess.run(['nircmd.exe', 'changesysvolume', '-2000'], check=True)
+                elif action == 'mute':
+                    subprocess.run(['nircmd.exe', 'mutesysvolume', '1'], check=True)
+                self.speak(f"Volume {action}")
+            except FileNotFoundError:
+                self.speak("Volume control requires nircmd.exe. Please download from nirsoft.net")
+            except Exception as e:
+                self.speak("Could not adjust volume")
+        elif platform.system() == 'Linux':
+            try:
+                if action == 'up':
+                    subprocess.run(['amixer', 'set', 'Master', '5%+'], check=True)
+                elif action == 'down':
+                    subprocess.run(['amixer', 'set', 'Master', '5%-'], check=True)
+                elif action == 'mute':
+                    subprocess.run(['amixer', 'set', 'Master', 'toggle'], check=True)
+                self.speak(f"Volume {action}")
+            except FileNotFoundError:
+                self.speak("Volume control requires amixer (alsa-utils package)")
+            except Exception as e:
+                self.speak("Could not adjust volume")
+        elif platform.system() == 'Darwin':  # macOS
+            try:
+                if action == 'up':
+                    subprocess.run(['osascript', '-e', 'set volume output volume (output volume of (get volume settings) + 10)'], check=True)
+                elif action == 'down':
+                    subprocess.run(['osascript', '-e', 'set volume output volume (output volume of (get volume settings) - 10)'], check=True)
+                elif action == 'mute':
+                    subprocess.run(['osascript', '-e', 'set volume output muted not (output muted of (get volume settings))'], check=True)
+                self.speak(f"Volume {action}")
+            except Exception as e:
+                self.speak("Could not adjust volume")
         else:
-            self.speak("Volume control not implemented for this OS")
+            self.speak("Volume control not implemented for this operating system")
     
     def get_system_info(self):
         """Get system information"""
