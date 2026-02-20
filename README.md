@@ -97,7 +97,7 @@ Medi-Caps University, Indore | 2022 - 2026
 #### **4. Virtual Assistant**
 **Description:** Voice-based personal assistant with weather + search functionality.  
 **Technologies:** Python | NLP  
-**Repo:** https://github.com/distortion-12/Lyra-Virtual-Assistant
+**Repo:** https://github.com/distortion-12/Virtual-Assistant.git
 
 ---
 
